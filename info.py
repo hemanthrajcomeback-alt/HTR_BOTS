@@ -10,14 +10,14 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'htrbotz')
 API_ID = int(environ.get('API_ID', '20232047'))
 API_HASH = environ.get('API_HASH', 'ec4fab92f1d53f4b62db607225d994ad')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7989004728:AAEpkSBDlgdhyARsHXrMdv0kOcaAIznovDA")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', '')).split()
+PICS = (environ.get('PICS', 'https://www.imagehost.at/image/w80OO')).split()
 
 
 # Admins & Users
@@ -196,5 +196,6 @@ else:
 # Don't Remove Credit @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
